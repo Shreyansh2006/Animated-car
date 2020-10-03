@@ -20,7 +20,7 @@ body{
     background-image: url(trees.png);
     background-size: cover;
     position: absolute;
-    top: 150px;
+    top: 10px;
     /* animation: shakebody linear 6s infinite; */
 }
 .track {
