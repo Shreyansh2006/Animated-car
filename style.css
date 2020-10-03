@@ -14,56 +14,53 @@ body{
     position: absolute;
 }
 
-.trees{
-    height: 100vh;
-    width: 100%;
+.trees {
+    height: 322px;
+    width: 107%;
     background-image: url(trees.png);
-    background-size: cover; 
+    background-size: cover;
     position: absolute;
-    top: -144px; 
+    top: 246px;
     /* animation: shakebody linear 6s infinite; */
 }
-.track{
+.track {
     height: 60vh;
     width: 800vw;
     background-image: url(track.png);
-    background-repeat: repeat-x; 
+    background-repeat: repeat-x;
     position: absolute;
     top: 70vh;
-    animation: carMove linear 13s infinite;
+    animation: carMove linear 20s infinite;
     /* animation: shakebody linear 6s infinite; */
 }
-
-.car{
-    height: 100px;
-    width: 380px;
+.car {
+    height: 85px;
+    width: 322px;
     background-image: url(car_body.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    left: 444px;
-    bottom:30vh;
+    left: 2px;
+    bottom: 30vh;
     animation: shake linear .3s infinite;
-
 }
 
 
-.wheel1 img{
-    width: 77px;
+.wheel1 img {
+    width: 57px;
     position: relative;
-    top:42px;
-    left:42px;
+    top: 39px;
+    left: 41px;
     animation: wheelRotation linear .16s infinite;
 }
 
 
-.wheel2 img{
-    width: 77px;
+.wheel2 img {
+    width: 66px;
     position: relative;
-    top: -39px;
-    left: 235px;
+    top: -25px;
+    left: 198px;
     animation: wheelRotation linear .16s infinite;
-
 }
 
 @keyframes wheelRotation
